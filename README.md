@@ -1,1 +1,2 @@
-# Audio-Recognition
+# Capuchin Bird call Detection and Counting
+This project develops a deep learning model to detect and count Capuchin bird calls in audio recordings, using the Z by HP Unlocked Challenge 3 - Signal Processing dataset from Kaggle. The solution is implemented using TensorFlow, with Short-Time Fourier Transform (STFT) spectrograms as input features and a custom Convolutional Neural Network (CNN) for binary classification (Capuchin vs. non-Capuchin). The model is trained on short audio clips and applied to longer forest recordings to count bird calls via a sliding window approach.
